@@ -14,11 +14,12 @@ import ScrollToTop from '../components/ScrollToTop.jsx';
 const Service = () => {
     return (
         <React.Fragment>
-            <SEO title="Exomac || Service" />
+            <SEO title="Rawdata || Service" />
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg-three.jpg"
-                title="We work with bold brands that we believe in"
+                // title="We work with bold brands that we believe in"
+                title="Technology Solutions For Your Growth Challenges"
                 content="Home"
                 contentTwo="Services"
             />

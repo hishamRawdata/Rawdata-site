@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import {useEffect, useRef} from "react";
+import { useEffect, useRef } from "react";
 import IconBoxData from '../../data/iconBox/icon-box.json';
 import IconBox from '../../components/IconBox/IconBox.jsx';
 import SectionTitle from '../../components/SectionTitles/SectionTitle';
@@ -9,9 +9,9 @@ const ServiceIconBoxTwo = ({ classOption }) => {
     const sceneEl = useRef(null);
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
-        relativeInput: true,
+            relativeInput: true,
         })
-        
+
         parallaxInstance.enable();
 
         return () => parallaxInstance.disable();
@@ -24,18 +24,20 @@ const ServiceIconBoxTwo = ({ classOption }) => {
                 <SectionTitle
                     headingOption="fz-32"
                     title="Services that create identities, build brands, and get results"
-                    subTitle="We produce beautifully crafted creative solutions that transcend business goals.
-                    We provide the exceptional service we’d want to experience ourselves!"
+                    // subTitle="We produce beautifully crafted creative solutions that transcend business goals.
+                    // We provide the exceptional service we’d want to experience ourselves!"
+                    subTitle="We help you adapt to the digital revolution by redefining how you work
+                    through tomorrow’s technology"
                 />
 
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6 icon-box-shape-animation">
 
                     {IconBoxData && IconBoxData.map((single, key) => {
-                        return(
+                        return (
                             <div key={key} className="col mb-6" data-aos="fade-up" data-aos-delay="300">
                                 <IconBox classOption="box-border" data={single} key={key} />
                             </div>
-                        ); 
+                        );
                     })}
 
                     <div className="shape shape-1" id="scene" ref={sceneEl}>

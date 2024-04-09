@@ -2,24 +2,24 @@
     {
         "id": "1",
         "icon": "images/svg/linea/linea-basic-target.svg",
-        "title": "Branding",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "Software Engineering",
+        "desc": "Supporting end-to-end process from understanding to design, development, implementation & support",
         "pageLink": "Learn More",
         "link": "service"
     },
     {
         "id": "2",
         "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
-        "title": "UX Design",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "AI & ML",
+        "desc": "Empowering customers build agile and intuitive processes through next generation technology.",
         "pageLink": "Learn More",
         "link": "service"
     },
     {
         "id": "3",
         "icon": "images/svg/linea/linea-basic-picture.svg",
-        "title": "Strategy",
-        "desc": "First impressions count! Make sure your brand works for you. We offer digital marketing.",
+        "title": "Business Strategy & Consulting",
+        "desc": "Find answers to growth, profitability & quality challenges through digital transformation.",
         "pageLink": "Learn More",
         "link": "service"
     },
