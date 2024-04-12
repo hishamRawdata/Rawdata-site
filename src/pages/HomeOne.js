@@ -22,9 +22,9 @@ const HomeOne = () => {
             <IntroSlider />
             <HomeAbout />
             <ServiceIconBox classOption="bg-color-1" />
-            <HomeSuccess />
+            {/* <HomeSuccess /> */}
             <Portfolio />
-            <HomeBlog />
+            {/* <HomeBlog /> */}
             <Newsletter />
             <ContactInformation />
             <Footer />

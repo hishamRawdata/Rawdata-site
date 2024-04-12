@@ -41,17 +41,17 @@ const Header = () => {
                             <div className="col-xl-2 col-auto order-0">
                                 <Logo 
                                     style={{width:"40%"}}
-                                    image={`${process.env.PUBLIC_URL}/images/logo/rawdata-logo.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/rawdata_transparent.png`}
                                 />
                             </div>
                             <div className="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
                                 <div className="menu-column-area d-none d-xl-block position-static">
                                     <NavBar />
                                 </div>
-                                <div className="header-search-area ms-xl-7 ms-0">
+                                {/* <div className="header-search-area ms-xl-7 ms-0">
 
                                     <HeaderSearch onClick={onSearchHandler}/>
-                                </div>
+                                </div> */}
 
                                 <div className="header-mobile-menu-toggle d-xl-none ms-sm-2">
                                     <button type="button" className="toggle" onClick={onCanvasHandler}>
@@ -62,9 +62,9 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                            {/* <div className="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
                                 <Btn name='Buy Now' />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

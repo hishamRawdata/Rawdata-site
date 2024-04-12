@@ -1,107 +1,60 @@
 [
-    {
+  {
+    "id": 1,
+    "title": "About",
+    "list": [
+      {
         "id": 1,
-        "title": "Services",
-        "list": [
-            {
-            "id": 1,
-            "text": "Marketing",
-            "url": "/"
-            },
-            {
-            "id": 2,
-            "text": "SEO/SEM",
-            "url": "/"
-            },
-            {
-            "id": 3,
-            "text": "Development",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "UX Design",
-            "url": "/"
-            }
-        ]
-    },
-    {
+        "text": "Team",
+        "url": "/"
+      },
+      {
         "id": 2,
-        "title": "Products",
-        "list": [
-            {
-            "id": 1,
-            "text": "Elementor Guru",
-            "url": "/"
-            },
-            {
-            "id": 2,
-            "text": "WooLentor Pro",
-            "url": "/"
-            },
-            {
-            "id": 3,
-            "text": "Plugins",
-            "badge": "New",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "Page Builder",
-            "url": "/"
-            }
-        ]
-    },
-    {
+        "text": "History",
+        "url": "/"
+      },
+      {
         "id": 3,
-        "title": "About",
-        "list": [
-            {
-            "id": 1,
-            "text": "Features",
-            "url": "/"
-            },
-            {
-            "id": 2,
-            "text": "Our Partners",
-            "url": "/"
-            },
-            {
-            "id": 3,
-            "text": "Affiliate Program",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "Pricing",
-            "url": "/"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Contact",
-        "list": [
-            {
-            "id": 1,
-            "text": "Support Ticket",
-            "url": "/"
-            },
-            {
-            "id": 2,
-            "text": "Help Desk",
-            "url": "/"
-            },
-            {
-            "id": 3,
-            "text": "Live Chat",
-            "url": "/"
-            },
-            {
-            "id": 4,
-            "text": "FAQs",
-            "url": "/"
-            }
-        ]
-    }
+        "text": "Careers",
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Privacy",
+    "list": [
+      {
+        "id": 1,
+        "text": "Privacy Policy",
+        "url": "/privacy-policy"
+      },
+      {
+        "id": 2,
+        "text": "Terms and Conditions",
+        "url": "/"
+      },
+      {
+        "id": 3,
+        "text": "Contact Us",
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Social",
+    "list": [
+      {
+        "id": 1,
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/company/rawdata-technologies/"
+      },
+      {
+        "id": 2,
+        "text": "Instagram",
+        "url": "https://www.instagram.com/rawdata_life/"
+      }
+    ]
+  }
 ]

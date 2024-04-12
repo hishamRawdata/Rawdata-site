@@ -22,9 +22,8 @@ const HomeAbout = () => {
     <div className="section section-padding-t90 section-padding-bottom-200">
       <div className="container">
         <SectionTitle
-          title="We are a full-service creative agency"
-          subTitle="We are a trusted growth partner for global companies transforming
-                    digitally"
+          title="We are a trusted growth partner for global companies transforming digitally."
+          // subTitle="We are a trusted growth partner for global companies transforming digitally."
         />
 
         <div className="row">
