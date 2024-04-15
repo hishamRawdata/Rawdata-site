@@ -9,6 +9,7 @@ import FunfactTwo from '../container/Funfact/FunfactTwo';
 import ContactInformationThree from '../container/ContactInformation/ContactInformationThree';
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
+import BrandContainer from '../container/Brand/BrandContainer.js';
 
 
 const Service = () => {
@@ -16,17 +17,18 @@ const Service = () => {
         <React.Fragment>
             <SEO title="Rawdata || Service" />
             <Header />
-            <Breadcrumb 
+            <Breadcrumb
                 image="images/bg/breadcrumb-bg-three.jpg"
                 // title="We work with bold brands that we believe in"
                 title="Technology Solutions For Your Growth Challenges"
                 content="Home"
                 contentTwo="Services"
             />
+            <AboutSix />
             <ServiceIconBoxTwo />
             <ServiceSkill />
-            <AboutSix />
             <FunfactTwo />
+            <BrandContainer classOption="section-padding-bottom" />
             <ContactInformationThree />
             <Footer />
             <ScrollToTop />

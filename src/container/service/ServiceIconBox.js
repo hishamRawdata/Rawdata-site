@@ -10,19 +10,18 @@ const ServiceIconBox = ({ classOption }) => {
             <div className="container">
 
                 <SectionTitle
-                    title="We create a unique action plan for brands"
-                    subTitle="Get your company heading in the right direction with our digital
-                    marketing strategist"
+                    title="Technology Solutions For Your Growth Challenges"
+                    subTitle="We help you adapt to the digital revolution by redefining how you work through tomorrow’s technology"
                 />
 
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
 
                     {IconBoxData && IconBoxData.slice(0, 3).map((single, key) => {
-                            return(
-                                <div key={key} className="col mb-6" data-aos="fade-up">
-                                    <IconBox classOption="box-border" data={single} key={key} />
-                                </div>
-                            ); 
+                        return (
+                            <div key={key} className="col mb-6" data-aos="fade-up">
+                                <IconBox classOption="box-border" data={single} key={key} />
+                            </div>
+                        );
                     })}
 
                 </div>
@@ -34,8 +33,8 @@ const ServiceIconBox = ({ classOption }) => {
 
 ServiceIconBox.propTypes = {
     classOption: PropTypes.string
-  };
-  ServiceIconBox.defaultProps = {
+};
+ServiceIconBox.defaultProps = {
     classOption: "section section-padding-t90-b100"
 };
 

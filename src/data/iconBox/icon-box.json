@@ -1,51 +1,74 @@
 [
-    {
-        "id": "1",
-        "icon": "images/svg/linea/linea-basic-target.svg",
-        "title": "Software Engineering",
-        "desc": "Supporting end-to-end process from understanding to design, development, implementation & support",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "2",
-        "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
-        "title": "AI & ML",
-        "desc": "Empowering customers build agile and intuitive processes through next generation technology.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "3",
-        "icon": "images/svg/linea/linea-basic-picture.svg",
-        "title": "Business Strategy & Consulting",
-        "desc": "Find answers to growth, profitability & quality challenges through digital transformation.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "4",
-        "icon": "images/svg/linea/linea-ecommerce-cart-plus.svg",
-        "title": "Ecommerce",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "5",
-        "icon": "images/svg/linea/linea-basic-gear.svg",
-        "title": "Development",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
-    },
-    {
-        "id": "6",
-        "icon": "images/svg/linea/linea-basic-display.svg",
-        "title": "Marketing",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
-        "pageLink": "Learn More",
-        "link": "service"
-    }
-    
+  {
+    "id": "1",
+    "icon": "images/svg/linea/linea-basic-target.svg",
+    "title": "Software Engineering",
+    "desc": "Supporting end-to-end process from understanding to design, development, implementation & support",
+    "pageLink": "Learn More",
+    "link": "service"
+  },
+  {
+    "id": "2",
+    "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
+    "title": "AI & ML",
+    "desc": "Empowering customers build agile and intuitive processes through next generation technology.",
+    "pageLink": "Learn More",
+    "link": "service"
+  },
+  {
+    "id": "3",
+    "icon": "images/svg/linea/linea-basic-picture.svg",
+    "title": "Business Strategy & Consulting",
+    "desc": "Find answers to growth, profitability & quality challenges through digital transformation.",
+    "pageLink": "Learn More",
+    "link": "service"
+  },
+  {
+    "id": "7",
+    "icon": "images/svg/linea/linea-basic-display.svg",
+    "title": "Software Engineering",
+    "desc": "Create products your customers love. We believe software engineering must go beyond development and testing to ensure excellent user experience and outcomes.",
+    "pageLink": "Engineering | Design | Development | Implementation | Management",
+    "link": "service"
+  },
+  {
+    "id": "8",
+    "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
+    "title": "AI & ML",
+    "desc": "Tackling today’s business challenges requires today’s technologies. We help businesses leverage the unlimited potential AI and ML to explain, predict and respond.",
+    "pageLink": "Consulting | Data Engineering | Data Analytics",
+    "link": "service"
+  },
+  {
+    "id": "9",
+    "icon": "images/svg/linea/linea-basic-gear.svg",
+    "title": "Business Strategy & Consulting",
+    "desc": "We help businesses plan and set digital strategies in motion that generate growth and enable competitive advantage.",
+    "pageLink": "Current State Analysis | Future State definition | Solution identification | Project Management | Change Management",
+    "link": "service"
+  },
+  {
+    "id": "4",
+    "icon": "images/svg/linea/linea-ecommerce-cart-plus.svg",
+    "title": "Ecommerce",
+    "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+    "pageLink": "Learn More",
+    "link": "service"
+  },
+  {
+    "id": "5",
+    "icon": "images/svg/linea/linea-basic-gear.svg",
+    "title": "Development",
+    "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+    "pageLink": "Learn More",
+    "link": "service"
+  },
+  {
+    "id": "6",
+    "icon": "images/svg/linea/linea-basic-display.svg",
+    "title": "Marketing",
+    "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+    "pageLink": "Learn More",
+    "link": "service"
+  }
 ]

@@ -1,26 +1,30 @@
 [
     {
         "id": 1,
-        "image": "images/brand/client-logo-01.png"
+        "image": "images/brand/Atiresh.png"
     },
     {
         "id": 2,
-        "image": "images/brand/client-logo-02.png"
+        "image": "images/brand/SeeSense-Logo-FILEminimizer-e1631880237498.png"
     },
     {
         "id": 3,
-        "image": "images/brand/client-logo-03.png"
+        "image": "images/brand/compatio-logo-1536x481.png"
     },
     {
         "id": 4,
-        "image": "images/brand/client-logo-04.png"
+        "image": "images/brand/trans-asia-group-FILEminimizer.png"
     },
     {
         "id": 5,
-        "image": "images/brand/client-logo-05.png"
+        "image": "images/brand/VJA-_-Associates-FILEminimizer.png"
     },
     {
         "id": 6,
-        "image": "images/brand/client-logo-06.png"
+        "image": "images/brand/Cognitive_logo.jpg"
+    },
+    {
+        "id":7,
+        "image":"images/brand/Muthoot-Capital-logojpg-e1631880528487.jpg"
     }
 ]

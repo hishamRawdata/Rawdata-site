@@ -1,30 +1,16 @@
 [
-    {
-        "id": 1,
-        "image": "images/testimonial/90/author-1.png",
-        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
-        "name": "Thomas Smith",
-        "position": "CEO at Flow"
-    },
-    {
-        "id": 2,
-        "image": "images/testimonial/90/author-2.png",
-        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
-        "name": "Eloise Smith",
-        "position": "CEO at Flow"
-    },
-    {
-        "id": 3,
-        "image": "images/testimonial/90/author-3.png",
-        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
-        "name": "Florence Themes",
-        "position": "/ Multimedia Admin"
-    },
-    {
-        "id": 1,
-        "image": "images/testimonial/90/author-1.png",
-        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
-        "name": "Florence Themes",
-        "position": "/ Multimedia Admin"
-    }
+  {
+    "id": 1,
+    "image": "images/testimonial/90/author-1.png",
+    "desc": "Rawdata has delivered extraordinary custom software to my company. The team delivers on time and at the agreed to performance specifications and costs.",
+    "name": "John Bay",
+    "position": "President - Bay New Business Consulting"
+  },
+  {
+    "id": 2,
+    "image": "images/testimonial/90/author-2.png",
+    "desc": "In less than a month Rawdata delivered a new web solution addressing all our requirements. I would gladly recommend Rawdata to anybody looking for software solutions to their business.",
+    "name": "Vipin Nair",
+    "position": "IT Business Specialist at Philips UK"
+  }
 ]

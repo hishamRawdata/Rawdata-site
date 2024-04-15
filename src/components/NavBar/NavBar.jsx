@@ -20,12 +20,17 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink to={process.env.PUBLIC_URL + "/about"}>
-            <span className="menu-text">About Us</span>
+            <span className="menu-text">Our Story</span>
           </NavLink>
         </li>
         <li>
           <NavLink to={process.env.PUBLIC_URL + "/service"}>
-            <span className="menu-text">Services</span>
+            <span className="menu-text">Solutions</span>
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={process.env.PUBLIC_URL + "/people"}>
+            <span className="menu-text">People</span>
           </NavLink>
         </li>
         {/* <li className="has-children">

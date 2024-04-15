@@ -1,6 +1,6 @@
-import {useState, useEffect, useRef} from "react";
+import { useState, useEffect, useRef } from "react";
 import SectionTitleTwo from '../../components/SectionTitles/SectionTitleTwo';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Tilt from 'react-parallax-tilt';
 import Parallax from 'parallax-js';
 
@@ -11,9 +11,9 @@ const AboutSix = () => {
 
     useEffect(() => {
         const parallaxInstance = new Parallax(sceneEl.current, {
-        relativeInput: true,
+            relativeInput: true,
         })
-        
+
         parallaxInstance.enable();
 
         return () => parallaxInstance.disable();
@@ -45,12 +45,22 @@ const AboutSix = () => {
 
                     <div className="col-xl-5 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div className="about-content-area">
-                            <SectionTitleTwo 
-                                subTitle="Innovative &amp; cutting-edge technology"
-                                title="We use latest technologies that are proven and practical"
+                            <SectionTitleTwo
+                                subTitle="How we work"
+                                title="Our SOP for growth"
                             />
-
-                            <p>Our goal is to make the process easier for you. We provide our clients with the right tools for web development, hosting, e-commerce, security, content and marketing.</p>
+                            <div style={{ marginBottom: "10px" }}>
+                                <h6>Empathize</h6>
+                                <p>We ask the right questions to understand your challenges.</p>
+                            </div>
+                            <div style={{ marginBottom: "10px" }}>
+                                <h6>Solutionize</h6>
+                                <p>We work closely with you to implement a solution that addresses your challenges and goes beyond</p>
+                            </div>
+                            <div style={{ marginBottom: "10px" }}>
+                                <h6>Continued support</h6>
+                                <p>We remain with you even after delivery to help you make the best of the solution.</p>
+                            </div>
 
                             <Link className="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" to={process.env.PUBLIC_URL + "/"}>Get Started</Link>
                         </div>
