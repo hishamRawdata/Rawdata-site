@@ -26,10 +26,10 @@ const Portfolio = () => {
                         />
                     </div>
                 </div>
-                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
+                <div className="row row-cols-lg-5 row-cols-md-4 row-cols-sm-2 row-cols-2 g-0 mesonry-list">
                     <div className="resizer col"></div>
-                    {workData && workData.slice(0, 2).map(portfolio => (
-                        <div key={portfolio.id} className={`col masonry-grid ${portfolio.categories.map(cat => slugify(cat)).join(" ")}`}>
+                    {workData && workData.slice(0, 3).map(portfolio => (
+                        <div key={portfolio.id} className={`col mt-2 masonry-grid ${portfolio.categories.map(cat => slugify(cat)).join(" ")}`}>
                             <WorkItem portfolio={portfolio} />
                         </div>
                     ))}

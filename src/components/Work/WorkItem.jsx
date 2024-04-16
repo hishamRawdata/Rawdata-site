@@ -6,6 +6,17 @@ const WorkItem = ({ portfolio }) => {
     <div className="single-portfolio">
       <div className="thumbnail">
         <img
+          style={{
+            width: "120px",
+            background: `${
+              portfolio.title === "CTRL ALT EXPERIENCE"
+                ? "rgba(0, 0, 0, 0.8)"
+                : ""
+            } `,
+            padding: "4px",
+            borderRadius: "5px",
+            // boxShadow: "2px 4px rgb(251, 255, 0)",
+          }}
           className="img-fluid"
           src={portfolio.homeImage}
           alt="Portfolio-01"
