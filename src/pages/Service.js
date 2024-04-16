@@ -22,11 +22,11 @@ const Service = () => {
                 // title="We work with bold brands that we believe in"
                 title="Technology Solutions For Your Growth Challenges"
                 content="Home"
-                contentTwo="Services"
+                contentTwo="Solutions"
             />
             <AboutSix />
             <ServiceIconBoxTwo />
-            <ServiceSkill />
+            {/* <ServiceSkill /> */}
             <FunfactTwo />
             <BrandContainer classOption="section-padding-bottom" />
             <ContactInformationThree />

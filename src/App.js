@@ -4,6 +4,7 @@ import AOS from "aos";
 import NavScrollTop from './components/NavScrollTop';
 import Privacy from "./pages/Privacy";
 import People from "./pages/People";
+import Terms from "./pages/Terms";
 const HomeOne = lazy(() => import("./pages/HomeOne"));
 const HomeTwo = lazy(() => import("./pages/HomeTwo"));
 const HomeThree = lazy(() => import("./pages/HomeThree"));
@@ -50,6 +51,7 @@ function App() {
             <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`} element={<BlogDetails />} />
             <Route path={`${process.env.PUBLIC_URL + "/contact"}`} element={<Contact />} />
             <Route path={`${process.env.PUBLIC_URL + "/privacy-policy"}`} element={<Privacy />} />
+            <Route path={`${process.env.PUBLIC_URL + "/terms-and-conditions"}`} element={<Terms />} />
             <Route path={`${process.env.PUBLIC_URL + "/people"}`} element={<People />} />
           </Routes>
         </Suspense>

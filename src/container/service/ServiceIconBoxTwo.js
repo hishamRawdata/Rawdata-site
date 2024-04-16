@@ -23,7 +23,7 @@ const ServiceIconBoxTwo = ({ classOption }) => {
 
                 <SectionTitle
                     headingOption="fz-32"
-                    title="Services that create identities, build brands, and get results"
+                    title="Services that innovate solutions, shape digital landscapes, and drive success."
                     // subTitle="We produce beautifully crafted creative solutions that transcend business goals.
                     // We provide the exceptional service we’d want to experience ourselves!"
                     subTitle="We help you adapt to the digital revolution by redefining how you work
@@ -32,7 +32,7 @@ const ServiceIconBoxTwo = ({ classOption }) => {
 
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6 icon-box-shape-animation">
 
-                    {IconBoxData && IconBoxData.slice(3).map((single, key) => {
+                    {IconBoxData && IconBoxData.slice(3,6).map((single, key) => {
                         return (
                             <div key={key} className="col mb-6" data-aos="fade-up" data-aos-delay="300">
                                 <IconBox classOption="box-border" data={single} key={key} />

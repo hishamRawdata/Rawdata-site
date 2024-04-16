@@ -22,9 +22,9 @@ const AboutUs = () => {
             <Header />
             <Breadcrumb 
                 image="images/bg/breadcrumb-bg.jpg"
-                title="We are a trusted growth partner for global companies transforming digitally."
+                title="We serve as the trusted ally for leading global enterprises navigating their digital transformation journey."
                 content="Home"
-                contentTwo="About Us"
+                contentTwo="Our Story"
             />
             <AboutFive />
             <AboutFour />

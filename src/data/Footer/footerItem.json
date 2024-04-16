@@ -6,18 +6,14 @@
       {
         "id": 1,
         "text": "Team",
-        "url": "/"
+        "url": "/people"
       },
       {
         "id": 2,
         "text": "History",
-        "url": "/"
-      },
-      {
-        "id": 3,
-        "text": "Careers",
-        "url": "/"
+        "url": "/about"
       }
+     
     ]
   },
   {
@@ -32,12 +28,12 @@
       {
         "id": 2,
         "text": "Terms and Conditions",
-        "url": "/"
+        "url": "/terms-and-conditions"
       },
       {
         "id": 3,
         "text": "Contact Us",
-        "url": "/"
+        "url": "/contact"
       }
     ]
   },

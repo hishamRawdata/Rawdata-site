@@ -32,10 +32,10 @@ const AboutFour = () => {
                     <div className="col-xl-6 col-lg-6 col-12" data-aos="fade-up">
                         <div className="about-content-area mt-0 mb-md-10 mb-10">
                             <SectionTitleTwo
-                                subTitle="Web design and digital marketing"
-                                title="We think strategy, UX design, and web development"
+                                subTitle="Custom Software Development"
+                            // title="We think strategy, UX design, and web development"
                             />
-
+                            <h5 className="mb-10">Our foundation is built on strategic planning, innovative UX design, and cutting-edge web development. These pillars form the backbone of our services, which encompass custom software development, mobile application development, ML, AI integration, business analysis, and partnership programs.</h5>
                             <div className="row row-cols-sm-2 row-cols-auto mb-n6">
                                 <div className="col mb-6">
                                     <div className="about-funfact">
@@ -49,7 +49,7 @@ const AboutFour = () => {
                                             </VisibilitySensor>+
                                         </div>
                                         <h6 className="text">Happy Clients</h6>
-                                        <p>We help our clients increase profits by increasing their visibility online.</p>
+                                        {/* <p>We help our clients increase profits by increasing their visibility online.</p> */}
                                     </div>
                                 </div>
                                 <div className="col mb-6">
@@ -64,7 +64,7 @@ const AboutFour = () => {
                                             </VisibilitySensor>+
                                         </div>
                                         <h6 className="text">Trusted Partners</h6>
-                                        <p>We help our clients increase profits by increasing their visibility online.</p>
+                                        {/* <p>We help our clients increase profits by increasing their visibility online.</p> */}
                                     </div>
                                 </div>
                                 <div className="col mb-6">
@@ -79,7 +79,7 @@ const AboutFour = () => {
                                             </VisibilitySensor>+
                                         </div>
                                         <h6 className="text">Passionate Team Members</h6>
-                                        <p>We help our clients increase profits by increasing their visibility online.</p>
+                                        {/* <p>We help our clients increase profits by increasing their visibility online.</p> */}
                                     </div>
                                 </div>
                             </div>

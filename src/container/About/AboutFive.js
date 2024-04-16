@@ -60,21 +60,51 @@ const AboutFive = () => {
                             {/* <Link className="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" to={process.env.PUBLIC_URL + "/"}>Get Started</Link> */}
                         </div>
                     </div>
-                    <div>
-                        <h1>Our History</h1>
-                        <h5>Growth has been the only constant for us over the years.</h5>
-                        <h4>Our Birth</h4>
-                        <p>We were 2 people in 2013. Our focus was to grow and help people around us grow.</p>
-                        <h4>Childhood</h4>
-                        <p>We were 30 people in 2015, working with customers from the US, the UK and the Middle-East. It was also when we became friends with some interesting companies who are still our close business partners.</p>
-                        <h4>Adolescence</h4>
-                        <p>In 2018, we became a family of 75 members. We had set up processes around new technologies, diversified into products and continued to grow our services business.</p>
-                        <h4>The bold and young leader</h4>
-                        <p>It is 2021. We are adding value to more small businesses across the world. We have welcomed new partners from Australia and Canada. And (the most exciting part) we are soon launching our flagship product – inTEUtion – for streamlining the container shipping business.</p>
+
+                </div>
+                <div className="row mt-15">
+                    <div className="col-xl-5 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                        <div className="about-content-area">
+                            <SectionTitleTwo
+                                subTitle="Growth has been the only constant for us over the years"
+                                title="Our History"
+                            />
+                            <h4>Our Birth</h4>
+                            <p className="mb-2">We were 2 people in 2013. Our focus was to grow and help people around us grow.</p>
+                            <h4>Childhood</h4>
+                            <p className="mb-2">We were 30 people in 2015, working with customers from the US, the UK and the Middle-East. It was also when we became friends with some interesting companies who are still our close business partners.</p>
+                            <h4>Adolescence</h4>
+                            <p className="mb-2">In 2018, we became a family of 75 members. We had set up processes around new technologies, diversified into products and continued to grow our services business.</p>
+                            <h4>The bold and young leader</h4>
+                            <p className="mb-2">It is 2021. We are adding value to more small businesses across the world. We have welcomed new partners from Australia and Canada. And (the most exciting part) we are soon launching our flagship product – inTEUtion – for streamlining the container shipping business.</p>
+
+                        </div>
                     </div>
+
+                    <div className="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
+                        <div className="about-image-area mt-20">
+                            <div className="about-image">
+                                <Tilt scale={scale} transitionSpeed={4000}>
+                                    <img src={process.env.PUBLIC_URL + "images/skill/skill-1.jpg"} alt="" />
+                                </Tilt>
+                            </div>
+                            <div className="about-image">
+                                <Tilt scale={scale} transitionSpeed={4000}>
+                                    <img src={process.env.PUBLIC_URL + "images/skill/skill-2.jpg"} alt="" />
+                                </Tilt>
+                            </div>
+                            
+                            <div className="shape shape-1" id="scene" ref={sceneEl}>
+                                <span data-depth="1"><img src={process.env.PUBLIC_URL + "images/shape-animation/about-shape-1.png"} alt="" /></span>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
+
         </div >
     )
 }

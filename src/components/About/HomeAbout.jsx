@@ -74,13 +74,19 @@ const HomeAbout = () => {
             <div className="about-content-area">
               <SectionTitleTwo
                 subTitle="Every day brings new challenges"
-                title="Creative agency focused on vision, product and people"
+                title="Innovative Software Solutions Provider"
               />
 
               <p>
-                We’re boldly individual, always original and refreshingly
-                easy-going. Our vision, passion and ideas are matched with
-                focus, expertise and flair.
+                At our core, we&apos;re a software development powerhouse dedicated
+                to envisioning, crafting, and empowering. Like a creative
+                agency, we center our focus on vision, product excellence, and
+                people-centric solutions. Our approach is characterized by bold
+                individuality, unwavering originality, and a refreshingly
+                easy-going demeanor. We bring together visionary ideas with
+                laser-focused expertise, ensuring that every software solution
+                we deliver is executed with unmatched precision, passion, and
+                flair.
               </p>
 
               <Link

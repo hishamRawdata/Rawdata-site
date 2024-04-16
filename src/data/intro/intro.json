@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "title": "Designing awesome brands & experiences",
-    "desc": "We are a trusted growth partner for global companies transforming digitally.",
-    "backgroundImage": "/images/hero-image/ourteam3.png"
+    "title": "Digital Innovators Hub",
+    "desc": "Step into the world of digital innovation with our comprehensive suite of services. From custom software development to mobile applications, web solutions, and AI integration, we're your partners in progress. Harness the power of IoT, ML and AI, backed by expert business analysis, to propel your business forward. Explore our exclusive partnership programs for collaborative success.",
+    "backgroundImage": "/images/hero-image/teamwork-3213924.jpg"
   },
   {
     "id": "2",
-    "title": "Designing awesome brands & experiences",
-    "desc": "We are a trusted growth partner for global companies transforming digitally.",
-    "backgroundImage": "/images/hero-image/hero-.jpg"
+    "title": "Tech Solutions Collective",
+    "desc": "Join the collective of tech pioneers and revolutionise your digital landscape. Our services span custom software, mobile apps, and web development, augmented by ML and AI capabilities. With a keen focus on business analysis, we ensure every solution is tailor-made for success. Explore our partnership programs and embark on a journey of digital empowerment.",
+    "backgroundImage": "/images/hero-image/startup-593341.jpg"
   },
   {
     "id": "3",
-    "title": "Designing awesome brands & experiences",
-    "desc": "We are a trusted growth partner for global companies transforming digitally.",
-    "backgroundImage": "/images/hero-image/hero-3.jpg"
+    "title": "Collaborative Innovations \n Partner Program",
+    "desc": " Join us in shaping the future of technology through our Collaborative Innovations Partner Program. Gain exclusive access to resources, support, and opportunities for joint ventures in custom software, mobile apps, and web development. Together, we'll harness the power of IoT, ML, AI, and strategic business analysis to drive innovation and growth. Partner with us and be a catalyst for change.",
+    "backgroundImage": "/images/hero-image/laptop-2838921.jpg"
   }
 ]

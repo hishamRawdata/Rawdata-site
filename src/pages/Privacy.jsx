@@ -7,17 +7,19 @@ import ScrollToTop from "../components/ScrollToTop";
 const Privacy = () => {
   return (
     <React.Fragment>
-      <SEO title="Rawdata" />
+      <SEO title="Rawdata || Privacy Policy" />
       <Header />
       <div
         style={{ width: "100%", height: "100px", background: "#030e22" }}
       ></div>
       <div className="px-40 py-20">
-        <h1 style={{ textAlign: "center",fontSize:"60px" }} className="mb-5">Privacy Policy</h1>
+        <h1 style={{ textAlign: "center", fontSize: "60px" }} className="mb-5">
+          Privacy Policy
+        </h1>
         <h2>Who we are</h2>
         <p>
           <b>Suggested test:</b>Our website address is: <br />
-          http://gator4226.temp.domains/~rawdaech/rawdatatech.com
+          https://rawdatatech.com/
         </p>
         <h2>Comments</h2>
         <p>
