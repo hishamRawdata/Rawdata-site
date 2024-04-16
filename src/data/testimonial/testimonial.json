@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "image": "images/testimonial/90/author-1.png",
+    "image": "images/testimonial/90/avataricon_92x92.jpg",
     "desc": "Rawdata has delivered extraordinary custom software to my company. The team delivers on time and at the agreed to performance specifications and costs.",
     "name": "John Bay",
     "position": "President - Bay New Business Consulting"
   },
   {
     "id": 2,
-    "image": "images/testimonial/90/author-2.png",
+    "image": "images/testimonial/90/avataricon_92x92.jpg",
     "desc": "In less than a month Rawdata delivered a new web solution addressing all our requirements. I would gladly recommend Rawdata to anybody looking for software solutions to their business.",
     "name": "Vipin Nair",
     "position": "IT Business Specialist at Philips UK"
