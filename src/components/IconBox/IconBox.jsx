@@ -24,7 +24,7 @@ const IconBox = ({ data, classOption }) => {
         </div>
         <p
           style={{ textAlign: "left", whiteSpace: "break-spaces" }}
-          href="#"
+          href="/service"
           className="link"
         >
           {data.pageLink}
