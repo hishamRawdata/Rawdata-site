@@ -29,7 +29,7 @@ const WorkItem = ({ portfolio }) => {
             target="_blank"
             rel="noreferrer"
           >
-            {`${portfolio.title.slice(0, 22)}...`}
+            {`${portfolio.title.slice(0, 22)}`}
             <img
               src={process.env.PUBLIC_URL + "/images/icons/arrow-up-right.svg"}
               alt=""
