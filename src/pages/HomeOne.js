@@ -11,6 +11,7 @@ import Newsletter from '../container/Newsletter/Newsletter';
 import ContactInformation from '../container/ContactInformation/ContactInformation';
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
+import HomeAboutThree from '../components/About/HomeAboutThree.jsx';
 
 
 
@@ -22,6 +23,7 @@ const HomeOne = () => {
             <IntroSlider />
             <HomeAbout />
             <ServiceIconBox classOption="bg-color-1" />
+            <HomeAboutThree />
             {/* <HomeSuccess /> */}
             <Portfolio />
             {/* <HomeBlog /> */}
