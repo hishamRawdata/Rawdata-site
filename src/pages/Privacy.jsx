@@ -12,7 +12,7 @@ const Privacy = () => {
       <div
         style={{ width: "100%", height: "100px", background: "#030e22" }}
       ></div>
-      <div className="px-40 py-20">
+      <div className="px-lg-40 px-2 px-md-15 py-20">
         <h1 style={{ textAlign: "center", fontSize: "60px" }} className="mb-5">
           Privacy Policy
         </h1>

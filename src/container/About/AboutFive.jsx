@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Tilt from "react-parallax-tilt";
 import Parallax from "parallax-js";
 
-const PeoplOne = () => {
+const AboutFive = () => {
   const [scale] = useState(1.04);
   const sceneEl = useRef(null);
 
@@ -18,7 +18,7 @@ const PeoplOne = () => {
     return () => parallaxInstance.disable();
   }, []);
   return (
-    <div className="section section-padding-top technology-section-padding-bottom-180">
+    <div className="section section-padding-top section-padding-bottom-180">
       <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
@@ -26,7 +26,7 @@ const PeoplOne = () => {
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "images/about/about-5.jpg"}
+                    src={process.env.PUBLIC_URL + "images/about/about-3.jpg"}
                     alt=""
                   />
                 </Tilt>
@@ -34,11 +34,12 @@ const PeoplOne = () => {
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "images/about/about-6.jpg"}
+                    src={process.env.PUBLIC_URL + "images/about/about-4.jpg"}
                     alt=""
                   />
                 </Tilt>
               </div>
+
               <div className="shape shape-1" id="scene" ref={sceneEl}>
                 <span data-depth="1">
                   <img
@@ -60,30 +61,28 @@ const PeoplOne = () => {
           >
             <div className="about-content-area">
               <SectionTitleTwo
-                subTitle="Only people growth powers an organization’s growth"
-                title="Our belief"
+                subTitle="Our solutions begin with brand research"
+                title="Inspiring and enabling growth"
               />
-              <h5>Experiment. Fail. Learn. Grow.</h5>
-              <p className="mb-2">
-                At Rawdata, we don’t have employees, we only have team members.
-                Every person is recognized for their individuality. Every
-                aspiration is respected and supported. For this reason, we don’t
-                follow template JDs. Instead, we have conversations with our
-                team members to learn how they wish to grow.
-              </p>
-              <p className="mb-2">
-                Accordingly, we make sure everyone gets the right opportunities
-                to continuously progress in their career.
-              </p>
+
               <p>
-                In fact, no team member works on a project forever. Everyone
-                gets a variety of services and products exposures.
+                Growth, in some form or other, is the most desired change across
+                geographies and cultures. We all want a better tomorrow than
+                today.
+                <br />
+                <br />
+                This universal idea and our own progress from a small
+                garage-like office to a 100-member team have served as
+                inspiration for everyone at Rawdata. <br />
+                <br />
+                That is why Rawdata respects and works towards growth – of our
+                team members, customers, business partners and countless lives
+                connected with these people.
               </p>
             </div>
           </div>
         </div>
-
-        <div className="row mt-20">
+        <div className="row mt-15">
           <div
             className="col-xl-5 col-lg-6 col-12 d-lg-block d-none"
             data-aos="fade-up"
@@ -91,29 +90,35 @@ const PeoplOne = () => {
           >
             <div className="about-content-area">
               <SectionTitleTwo
-                subTitle="In some ways, we are all one"
-                title="Our values"
+                subTitle="Growth has been the only constant for us over the years"
+                title="Our History"
               />
+              <h4>Our Birth</h4>
               <p className="mb-2">
-                Not computers, nor the workplace. Rawdata is made up of people
-                who respect and live by certain values.
+                We were 2 people in 2013. Our focus was to grow and help people
+                around us grow.
               </p>
-              <h5>Empathy</h5>
-              <p className="mb-2">We listen. We trust. We cooperate.</p>
-              <h5>Learning</h5>
-              <p className="mb-2">We question. We challenge. We seek.</p>
-              <h5>Commitment</h5>
-              <p className="mb-5">
-                We are ambitious. We stand accountable. We are (annoyingly)
-                persistent.
+              <h4>Childhood</h4>
+              <p className="mb-2">
+                We were 30 people in 2015, working with customers from the US,
+                the UK and the Middle-East. It was also when we became friends
+                with some interesting companies who are still our close business
+                partners.
               </p>
-              <h4>Tell us what you’re good at. We’ll find a desk and chair.</h4>
-              <Link
-                className="btn btn-primary btn-hover-secondary mt-xl-2 mt-lg-2 mt-md-2 mt-2"
-                to={process.env.PUBLIC_URL + "/contact"}
-              >
-                Get Started
-              </Link>
+              <h4>Adolescence</h4>
+              <p className="mb-2">
+                In 2018, we became a family of 75 members. We had set up
+                processes around new technologies, diversified into products and
+                continued to grow our services business.
+              </p>
+              <h4>The bold and young leader</h4>
+              <p className="mb-2">
+                It is 2021. We are adding value to more small businesses across
+                the world. We have welcomed new partners from Australia and
+                Canada. And (the most exciting part) we are soon launching our
+                flagship product – inTEUtion – for streamlining the container
+                shipping business.
+              </p>
             </div>
           </div>
 
@@ -121,12 +126,11 @@ const PeoplOne = () => {
             className="col-xl-7 col-lg-6 col-12 d-lg-block d-none"
             data-aos="fade-up"
           >
-            <div className="about-image-area mt-2">
+            <div className="about-image-area mt-20">
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "/images/faq/faq-1.jpg"}
-                    // src={process.env.PUBLIC_URL + "/images/faq/faq-2.jpg"}
+                    src={process.env.PUBLIC_URL + "images/skill/skill-1.jpg"}
                     alt=""
                   />
                 </Tilt>
@@ -134,11 +138,12 @@ const PeoplOne = () => {
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "/images/faq/faq-2.jpg"}
+                    src={process.env.PUBLIC_URL + "images/skill/skill-2.jpg"}
                     alt=""
                   />
                 </Tilt>
               </div>
+
               <div className="shape shape-1" id="scene" ref={sceneEl}>
                 <span data-depth="1">
                   <img
@@ -154,13 +159,15 @@ const PeoplOne = () => {
           </div>
 
           {/* mobile */}
-          <div className="col-xl-7 col-lg-6 col-12 d-lg-none" data-aos="fade-up">
-            <div className="about-image-area mt-2">
+          <div
+            className="col-xl-7 col-lg-6 col-12 d-lg-none"
+            data-aos="fade-up"
+          >
+            <div className="about-image-area mt-20">
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "/images/faq/faq-1.jpg"}
-                    // src={process.env.PUBLIC_URL + "/images/faq/faq-2.jpg"}
+                    src={process.env.PUBLIC_URL + "images/skill/skill-1.jpg"}
                     alt=""
                   />
                 </Tilt>
@@ -168,7 +175,7 @@ const PeoplOne = () => {
               <div className="about-image">
                 <Tilt scale={scale} transitionSpeed={4000}>
                   <img
-                    src={process.env.PUBLIC_URL + "/images/faq/faq-2.jpg"}
+                    src={process.env.PUBLIC_URL + "images/skill/skill-2.jpg"}
                     alt=""
                   />
                 </Tilt>
@@ -188,36 +195,41 @@ const PeoplOne = () => {
           </div>
 
           <div
-            className="col-xl-5 col-lg-6 col-12 d-lg-none"
-            style={{marginTop:"-80px"}}
+            className="col-xl-5 col-lg-6 col-12 d-lg-none mt-10"
             data-aos="fade-up"
             data-aos-delay="300"
           >
             <div className="about-content-area">
               <SectionTitleTwo
-                subTitle="In some ways, we are all one"
-                title="Our values"
+                subTitle="Growth has been the only constant for us over the years"
+                title="Our History"
               />
+              <h4>Our Birth</h4>
               <p className="mb-2">
-                Not computers, nor the workplace. Rawdata is made up of people
-                who respect and live by certain values.
+                We were 2 people in 2013. Our focus was to grow and help people
+                around us grow.
               </p>
-              <h5>Empathy</h5>
-              <p className="mb-2">We listen. We trust. We cooperate.</p>
-              <h5>Learning</h5>
-              <p className="mb-2">We question. We challenge. We seek.</p>
-              <h5>Commitment</h5>
-              <p className="mb-5">
-                We are ambitious. We stand accountable. We are (annoyingly)
-                persistent.
+              <h4>Childhood</h4>
+              <p className="mb-2">
+                We were 30 people in 2015, working with customers from the US,
+                the UK and the Middle-East. It was also when we became friends
+                with some interesting companies who are still our close business
+                partners.
               </p>
-              <h4>Tell us what you’re good at. We’ll find a desk and chair.</h4>
-              <Link
-                className="btn btn-primary btn-hover-secondary mt-xl-2 mt-lg-2 mt-md-2 mt-2"
-                to={process.env.PUBLIC_URL + "/contact"}
-              >
-                Get Started
-              </Link>
+              <h4>Adolescence</h4>
+              <p className="mb-2">
+                In 2018, we became a family of 75 members. We had set up
+                processes around new technologies, diversified into products and
+                continued to grow our services business.
+              </p>
+              <h4>The bold and young leader</h4>
+              <p className="mb-2">
+                It is 2021. We are adding value to more small businesses across
+                the world. We have welcomed new partners from Australia and
+                Canada. And (the most exciting part) we are soon launching our
+                flagship product – inTEUtion – for streamlining the container
+                shipping business.
+              </p>
             </div>
           </div>
         </div>
@@ -226,4 +238,4 @@ const PeoplOne = () => {
   );
 };
 
-export default PeoplOne;
+export default AboutFive;
