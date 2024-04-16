@@ -28,13 +28,13 @@ const Portfolio = () => {
                 </div>
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
                     <div className="resizer col"></div>
-                    {workData && workData.slice(0, 3).map(portfolio => (
+                    {workData && workData.slice(0, 2).map(portfolio => (
                         <div key={portfolio.id} className={`col masonry-grid ${portfolio.categories.map(cat => slugify(cat)).join(" ")}`}>
                             <WorkItem portfolio={portfolio} />
                         </div>
                     ))}
                 </div>
-                <div><h3 className='mb-5'>Selected customers</h3>
+                <div className='mt-5'><h3 className='mb-5'>Selected customers</h3>
                     <BrandContainer classOption="section-padding-bottom" />
                 </div>
             </div>
